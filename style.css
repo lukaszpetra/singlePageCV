@@ -1,4 +1,4 @@
-@import url(reset.css);
+/*@import url(reset.css);*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 
@@ -36,11 +36,30 @@ h1{
 }
 
 section{
-    padding: 1em;
+  margin: 1em;
+  padding: 1em;
 }
 
-a {
+a{
     text-decoration: none;
     color:whitesmoke;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+
+.fab{
+    
+    font-size: 1.5em;
+    margin: 5px;
+    width: 1.5em;
+    height: 1.5em;
+    /*border: 1px solid whitesmoke;*/
+    text-align: center;
+    /*border-radius: 50%;*/
+    line-height: 1.5em;
     
 }
+
