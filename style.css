@@ -16,7 +16,7 @@ header{
     padding: 2em;
     text-align: center;
     background-size: cover;
-    background-position: center;
+    background-position: fixed;
 }
 
 header section{
