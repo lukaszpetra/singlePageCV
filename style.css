@@ -63,3 +63,100 @@ a:hover{
     
 }
 
+h3, h4{
+    font-weight: bold;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+.job-title, school{
+    text-transform: capitalize;
+}
+
+ul.job-description li:before{
+  content: "✔";
+  padding-right: 0.5em;
+  color:#13a76b;
+}
+
+.skills .column ul, ul.job-description {
+  list-style-type: none;
+}
+
+
+ul .skills, .column li:before{
+    content: "✔";
+    padding-right: 0.5em;
+    color:#13a76b;
+}
+
+.hobby li:before{
+    content: "✔";
+    padding-right: 0.5em;
+    color:#13a76b;
+}
+
+ul .hobby li:before{
+    content: "✔";
+    padding-right: 0.5em;
+    color:#13a76b;
+}
+
+ ul, ul.hobby {
+  list-style-type: none;
+}
+
+footer {
+ padding: 1em 1.5em;
+ background:#13a76b;
+ color: whitesmoke;
+ text-align: center;
+}
+
+.course, .skills, .language {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.course .title {
+  color: #509e98;
+  -ms-flex: 0 0 33.3%;
+  flex: 0 0 33.3%;
+  max-width: 33%;
+}
+
+.course .descrition {
+  -ms-flex: 0 0 66.6%;
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+
+.course .descrition p {
+  padding-left: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
