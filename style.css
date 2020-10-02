@@ -115,7 +115,7 @@ footer {
  text-align: center;
 }
 
-.course, .skills, .language {
+.course, .skills {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -139,6 +139,18 @@ footer {
   padding-left: 1em;
 }
 
+
+
+
+@media only screen and (max-width: 768px) {
+  .course {
+    display: block;
+  }
+    
+@media only screen and (max-width: 576px) {
+  .skills {
+    display: block;
+  }
 
 
 
